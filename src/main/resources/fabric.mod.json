@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "natural_disasters",
+  "version": "${version}",
+  "name": "Natural Disasters Mod",
+  "description": "Um mod incrível sobre desastres naturais com blocos, animações, partículas, VFX e sons imersivos!",
+  "authors": [
+    "DevTeam"
+  ],
+  "contact": {
+    "homepage": "https://github.com/seu-usuario/natural-disasters-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/natural_disasters/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.naturaldisasters.NaturalDisastersMod"
+    ],
+    "client": [
+      "com.naturaldisasters.client.NaturalDisastersClient"
+    ]
+  },
+  "mixins": [
+    "natural_disasters.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
