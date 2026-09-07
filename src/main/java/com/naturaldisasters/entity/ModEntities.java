@@ -48,11 +48,6 @@ class TornadoEntity extends net.minecraft.entity.Entity {
     
     @Override
     protected void initDataTracker() {}
-    
-    @Override
-    public net.minecraft.entity.data.TrackedDataHandler<?> getTrackedDataHandler() {
-        return null;
-    }
 }
 
 // Classe base para projétil de vulcão
@@ -63,11 +58,6 @@ class VolcanoProjectileEntity extends net.minecraft.entity.Entity {
     
     @Override
     protected void initDataTracker() {}
-    
-    @Override
-    public net.minecraft.entity.data.TrackedDataHandler<?> getTrackedDataHandler() {
-        return null;
-    }
 }
 
 // Classe base para onda de tsunami
@@ -78,9 +68,4 @@ class TsunamiWaveEntity extends net.minecraft.entity.Entity {
     
     @Override
     protected void initDataTracker() {}
-    
-    @Override
-    public net.minecraft.entity.data.TrackedDataHandler<?> getTrackedDataHandler() {
-        return null;
-    }
 }

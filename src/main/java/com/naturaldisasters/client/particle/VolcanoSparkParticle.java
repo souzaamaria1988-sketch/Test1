@@ -30,7 +30,7 @@ public class VolcanoSparkParticle extends SpriteBillboardParticle {
     @Override
     public void tick() {
         super.tick();
-        this.setSpriteForAge(this.spriteProvider);
+        this.setSpriteForAge(spriteProvider);
     }
     
     @Override

@@ -31,7 +31,7 @@ public class VolcanoSmokeParticle extends SpriteBillboardParticle {
     public void tick() {
         super.tick();
         this.scale += 0.02f;
-        this.setSpriteForAge(this.spriteProvider);
+        this.setSpriteForAge(spriteProvider);
     }
     
     @Override

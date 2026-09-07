@@ -34,7 +34,7 @@ public class TornadoDebrisParticle extends SpriteBillboardParticle {
     public void tick() {
         super.tick();
         this.angle += this.angularVelocity;
-        this.setSpriteForAge(this.spriteProvider);
+        this.setSpriteForAge(spriteProvider);
     }
     
     @Override
