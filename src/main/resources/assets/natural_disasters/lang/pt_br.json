@@ -1,0 +1,25 @@
+{
+  "itemGroup.natural_disasters.tab": "Desastres Naturais",
+  
+  "block.natural_disasters.tornado_spawner": "Gerador de Tornado",
+  "block.natural_disasters.volcano_block": "Bloco de Vulcão",
+  "block.natural_disasters.lava_flow_block": "Fluxo de Lava",
+  "block.natural_disasters.flood_water_block": "Água de Inundação",
+  "block.natural_disasters.earthquake_crack": "Fissura de Terremoto",
+  "block.natural_disasters.tsunami_warning": "Alerta de Tsunami",
+  "block.natural_disasters.wildfire_ash": "Cinza de Incêndio",
+  "block.natural_disasters.hailstone_block": "Bloco de Granizo",
+  "block.natural_disasters.dust_storm_block": "Tempestade de Areia",
+  "block.natural_disasters.lightning_rod_enhanced": "Para-raios Aprimorado",
+  
+  "item.natural_disasters.tornado_seed": "Semente de Tornado",
+  "item.natural_disasters.volcano_eruption_trigger": "Ativador de Erupção Vulcânica",
+  "item.natural_disasters.flood_spawn_egg": "Ovo de Inundação",
+  "item.natural_disasters.earthquake_charge": "Carga de Terremoto",
+  "item.natural_disasters.tsunami_warning_device": "Dispositivo de Alerta de Tsunami",
+  "item.natural_disasters.wildfire_starter": "Iniciador de Incêndio",
+  "item.natural_disasters.hailstone_spawner": "Gerador de Granizo",
+  "item.natural_disasters.dust_storm_generator": "Gerador de Tempestade de Areia",
+  "item.natural_disasters.lightning_striker": "Golpe de Relâmpago",
+  "item.natural_disasters.weather_control_unit": "Unidade de Controle Climático"
+}
