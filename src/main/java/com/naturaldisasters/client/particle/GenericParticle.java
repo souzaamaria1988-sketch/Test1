@@ -10,13 +10,15 @@ import net.minecraft.particle.DefaultParticleType;
 @Environment(EnvType.CLIENT)
 public class GenericParticle extends SpriteBillboardParticle {
     
-    private final ParticleType type;
+    private final DefaultParticleType type;
+    private final SpriteProvider spriteProvider;
     
     public GenericParticle(ClientWorld world, double x, double y, double z,
                            double velocityX, double velocityY, double velocityZ,
-                           SpriteProvider spriteProvider, ParticleType type) {
+                           SpriteProvider spriteProvider, DefaultParticleType type) {
         super(world, x, y, z, velocityX, velocityY, velocityZ);
         
+        this.spriteProvider = spriteProvider;
         this.type = type;
         this.velocityMultiplier = 0.9f;
         this.gravityStrength = 0.05f;
@@ -30,7 +32,7 @@ public class GenericParticle extends SpriteBillboardParticle {
     @Override
     public void tick() {
         super.tick();
-        this.setSpriteForAge(this.spriteProvider);
+        this.setSpriteForAge(spriteProvider);
     }
     
     @Override

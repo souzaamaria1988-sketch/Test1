@@ -6,8 +6,8 @@ import net.minecraft.client.particle.*;
 import net.minecraft.client.world.ClientWorld;
 import net.minecraft.particle.DefaultParticleType;
 
-@Environment(EnvType.CLIENT) public class HailstoneParticleParticle extends GenericParticle {
-    public HailstoneParticleParticle(ClientWorld world, double x, double y, double z, double vX, double vY, double vZ, SpriteProvider provider) {
+@Environment(EnvType.CLIENT) public class HailstoneParticle extends GenericParticle {
+    public HailstoneParticle(ClientWorld world, double x, double y, double z, double vX, double vY, double vZ, SpriteProvider provider) {
         super(world, x, y, z, vX, vY, vZ, provider, null);
     }
     @Environment(EnvType.CLIENT)
@@ -16,7 +16,7 @@ import net.minecraft.particle.DefaultParticleType;
         public Provider(SpriteProvider provider) { this.provider = provider; }
         @Override
         public Particle createParticle(DefaultParticleType type, ClientWorld world, double x, double y, double z, double vX, double vY, double vZ) {
-            return new HailstoneParticleParticle(world, x, y, z, vX, vY, vZ, this.provider);
+            return new HailstoneParticle(world, x, y, z, vX, vY, vZ, this.provider);
         }
     }
 }

@@ -31,7 +31,7 @@ public class LavaBubbleParticle extends SpriteBillboardParticle {
     public void tick() {
         super.tick();
         this.scale += 0.01f;
-        this.setSpriteForAge(this.spriteProvider);
+        this.setSpriteForAge(spriteProvider);
     }
     
     @Override
